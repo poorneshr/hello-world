@@ -1,4 +1,8 @@
 # Starter pipeline
+- task: PowerShell@2
+  inputs:
+    filePath: 'https://github.com/poorneshr/hello-world/commit/5ef982757fc583a986e90026a6d7889ad745ffdc'
+    errorActionPreference: 'continue'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
